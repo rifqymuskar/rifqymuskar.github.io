@@ -364,6 +364,10 @@ textarea.form-control{
   font-size: 13px;
   font-weight: 300;
 }
+.resume-4{
+  width:150px;
+  height:auto;
+}
 
 /* FOOTER */
 .footer{
