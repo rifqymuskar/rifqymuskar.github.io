@@ -19,4 +19,5 @@ app.config(function($routeProvider, $locationProvider) {
 		enabled: true,
 		requireBase: true 
 	});
+  $locationProvider.hashPrefix('');
 });
