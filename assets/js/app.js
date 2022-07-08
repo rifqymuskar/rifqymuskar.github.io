@@ -15,9 +15,4 @@ app.config(function($routeProvider, $locationProvider) {
     templateUrl : "./contact.html"
   })
 
-  $locationProvider.html5Mode({
-		enabled: true,
-		requireBase: true 
-	});
-  $locationProvider.hashPrefix('');
 });
