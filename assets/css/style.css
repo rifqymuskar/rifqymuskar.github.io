@@ -25,16 +25,22 @@ p{
 }
 
 /* BOOTSTRAP */
+.nav-item{
+  padding-left:18px!important;
+  padding-right:18px!important;
+}
 .nav-link{
   color:#000!important;
   text-transform: uppercase;
   font-size:14px;
   letter-spacing: 0.2px;
-  padding-left:18px!important;
-  padding-right:18px!important;
+  padding-left:0px!important;
+  padding-right:0px!important;
 }
 .nav-link.active{
-  color: #0050FF!important;
+  color: #000!important;
+  font-weight: 500;
+  border-bottom: 1px solid #000;
 }
 .navbar-brand{
   font-weight: 700;
@@ -169,6 +175,10 @@ textarea.form-control{
     border-radius: 25px;
     font-weight: 500;
     font-size: 14px;
+  }
+  .home-2-9:hover{
+    color: #fff;
+    box-shadow: -7px 11.31px 17px 0px rgb(138 131 124 / 23%);
   }
   .home-2-10{
     background:#fff;

@@ -11,6 +11,9 @@ app.config(function($routeProvider, $locationProvider) {
   .when("/portofolio", {
     templateUrl : "./portofolio.html"
   })
+  .when("/certificate", {
+    templateUrl : "./certificate.html"
+  })
   .when("/contact", {
     templateUrl : "./contact.html"
   })
@@ -20,3 +23,10 @@ app.config(function($routeProvider, $locationProvider) {
 	// 	requireBase: true 
 	// });
 });
+
+app.run(function($rootScope, $location){
+  $rootScope.getClassParent = function (path) { 
+    console.log(path)
+    return ($location.path() == path) ? 'active' : ''
+  }
+})
